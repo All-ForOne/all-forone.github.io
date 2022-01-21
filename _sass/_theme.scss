@@ -137,7 +137,7 @@ body {
 
 .content {
   @include breakpoint(break-1) {
-    width: 62%;
+    width: 72%;
   }
 }
 
@@ -452,6 +452,6 @@ pre code {
   }
   pre {
     white-space: pre;
-    overflow-x: scroll;
+    overflow-x: hidden;
   }
 }
