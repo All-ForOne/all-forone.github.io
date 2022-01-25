@@ -99,6 +99,7 @@ a {
   // Lists.
   ul, ol {
     @include baseline(zeta, $bodytype, 2, 2, all);
+    margin-left: 2rem;
 
     li {
       font-feature-settings: 'kern', 'onum', 'liga';
@@ -119,7 +120,6 @@ a {
   // Ordered lists.
   ol {
     list-style-type: none;
-    margin-left: 2rem;
 
     li {
       counter-increment: top-level;
@@ -299,9 +299,7 @@ a {
       }
     }
 
-    @include breakpoint(break-1) {
-      margin-left: -1rem;
-    }
+    @include breakpoint(break-1);
   }
 
   // Horizontal rule.
