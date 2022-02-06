@@ -23,7 +23,7 @@ docker를 사용하면 설치/삭제가 너무나도 쉬워서 개발 초기에 
     > docker -v
     ```
 
-2. 아래 명령어를 입력해서 mysql 컨테이너 이미지를 다운받아 주세요.
+2. 아래 명령어를 입력해서 mysql 컨테이너 이미지를 다운받아 주세요. 버전을 따로 명시하지 않으면 최신 버전이 받아집니다.
     ```
     > docker pull mysql
     ``` 
@@ -68,4 +68,6 @@ mysql workbench를 통해 root/1234로 접속이 되는지 확인해보아요.
 > 참고   
 > [Docker run reference](https://docs.docker.com/engine/reference/run/)  
 > [mysql charset configuration](https://dev.mysql.com/doc/refman/8.0/en/charset-configuration.html)  
-> [mysql utf8mb4](https://dev.mysql.com/doc/refman/8.0/en/charset-unicode-utf8mb4.html)
+> [mysql utf8mb4](https://dev.mysql.com/doc/refman/8.0/en/charset-unicode-utf8mb4.html)  
+> https://medium.com/oldbeedev/mysql-utf8mb4-character-set-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-da7624958624  
+> https://poiemaweb.com/docker-mysql
